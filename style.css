@@ -281,7 +281,7 @@ iframe{
   flex-wrap: wrap;
 }
 .home-section-index{
-  height: 750px;
+  height: 100vh;
 }
 .home-section .home-content .bx-menu,
 .home-section .home-content .text{
