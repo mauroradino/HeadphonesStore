@@ -7,6 +7,23 @@
   box-sizing: border-box;
   font-family: 'Segoe UI';
 }
+.ul_stores{
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  margin-top: 30px;
+}
+.home-section-store{
+  height: 3000px;
+}
+iframe{
+  width: 130%;
+  height: 150%;
+}
+.stores_title{
+  margin-top: 30px;
+}
 .home-section-clients{
   height: 2000px !important;
 }
@@ -382,6 +399,9 @@
   margin-top: 20px;
 }
 @media (max-width: 750px){
+  .firma{
+    display: none !important;
+  }
   .body_clients{
     height: 1200px ;
   }
@@ -521,8 +541,52 @@
     margin-top: 40%;
     font-size: 300%;
   }
+  .ul_stores{
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  .home-section-store{
+    height: 3000px;
+  }
+  .li_ul_store{
+    margin-top: 30px;
+  }
+  .li_ul_store1{
+    margin-top: 180px;
+  }
+  iframe{
+    width: 90%;
+  }
+  .stores_title{
+    margin-top: 30px;
+  }
 }
 @media (min-width: 750px) and (max-width:1024px){
+  .ul_stores{
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 10px;
+  }
+  .home-section-store{
+    height: 3000px;
+  }
+  .li_ul_store{
+    margin-top: 30px;
+  }
+  .li_ul_store1{
+    margin-top: 180px;
+  }
+  iframe{
+    width: 90%;
+  }
+  .stores_title{
+    margin-top: 30px;
+  }
   .grid{
     display: grid;
     justify-content: center;
