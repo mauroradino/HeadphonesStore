@@ -91,19 +91,27 @@
         <div class="profile_name">Mauro Radino</div>
         <div class="job">Frontend Developer</div>
       </div>
-      <i class='bx bx-log-out' ></i>
+      <i class='bx bx-log-out'></i>
     </div>
   </li>
 </ul>
   </div>
-  <section class="home-section">
+  <section class="home-section home-section-carrito">
     <div class="home-content">
       <i class='bx bx-menu' ></i>
       <span class="text">E-HEADPHONES</span>
     </div>
-   <div class="seleccionados"></div>
+    <div style="display: flex; justify-content: space-evenly; min-height: 100vh; height: auto;">
+   <div id="seleccionados" class="seleccionados"></div>
+   <div id="mensajeCarrito">
+    <h3>Pre-Ticket</h3>
+    <ul id="cuenta">
+    </ul>
+    <button id="vaciar" class="btn btn-primary boton_vaciar">Empty cart</button>
+   </div>
+  </div>
   </section>
  </div>
-  <script src="script.js"></script>
+  <script src="carrito.js"></script>
 </body>
 </html>

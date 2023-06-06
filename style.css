@@ -7,6 +7,26 @@
   box-sizing: border-box;
   font-family: 'Segoe UI';
 }
+.li_ticket{
+  list-style-type: none;
+}
+.btn_cuenta{
+  background-color: #000000;
+  border: none;
+  color: white;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.home-section-products{
+  height: 1800px !important;
+}
+.btn_cuenta:hover{
+  background-color: grey;
+  color: #000000;
+}
 .ul_stores{
   padding: 0;
   display: flex;
@@ -306,6 +326,41 @@ iframe{
   animation: animacion 3s infinite;
 }
 
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.cart{
+  position: relative;
+  display: inline-block;
+  right: 30px
+}
+.iconCount{
+  position: absolute;
+  top: .10px;
+  right: -10px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+.seleccionados{
+  display: grid;
+  justify-content: center;
+}
+.home-section-carrito{
+  height: 100%;
+}
+.btn_vaciar{
+  height: 50px;
+}
 @keyframes animacion {
   0% {
     translate: 0px 0px;
@@ -399,6 +454,11 @@ iframe{
   margin-top: 20px;
 }
 @media (max-width: 750px){
+  .cart{
+    position: relative;
+    display: inline-block;
+    right: 30px
+  }
   .firma{
     display: none !important;
   }
@@ -563,8 +623,19 @@ iframe{
   .stores_title{
     margin-top: 30px;
   }
+  .home-section-products{
+    height: 5000px !important;
+  }
 }
 @media (min-width: 750px) and (max-width:1024px){
+  .cart{
+    position: relative;
+    display: inline-block;
+    right: 30px
+  }
+  .home-section-products{
+    height: 2800px !important;
+  }
   .ul_stores{
     padding: 0;
     display: grid;
